@@ -1,0 +1,13 @@
+#!/bin/bash
+ifconfig PE1-e2 mtu 1540
+ifconfig PE2-e2 mtu 1540
+ifconfig PE3-e2 mtu 1540
+ifconfig P-e1 mtu 1540
+ifconfig P-e2 mtu 1540
+ifconfig P-e3 mtu 1540
+ifconfig NetPPE1-e00 mtu 1540
+ifconfig NetPPE2-e00 mtu 1540
+ifconfig NetPPE3-e00 mtu 1540
+ifconfig NetPPE1 mtu 1540
+ifconfig NetPPE2 mtu 1540
+ifconfig NetPPE3 mtu 1540

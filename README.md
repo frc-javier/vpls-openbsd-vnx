@@ -8,7 +8,9 @@ As indicated in the OpenBSD VPLS test setup, reassembly should be disabled in th
 
 Preparation of the scenario:
 
-- Installation of VNX in the virtualization host. Follow the instructions provided in the VNX page: http://web.dit.upm.es/vnxwiki/index.php/Vnx-install
+- Installation of VNX in the virtualization host. Follow the instructions provided in the VNX page: http://web.dit.upm.es/vnxwiki/index.php/Vnx-install  
+  If you already had an installation of VNX, update to the last version using the vnx_update command (as root).
+
 - Creation of the OpenBSD root filesystem. Follow the instructions provided in the VNX page: http://web.dit.upm.es/vnxwiki/index.php/Vnx-rootfsopenbsd
 - Download the VNX scenario definition file vpls-openbsd.xml.
 - Download the folder vpls-conf to the same directory as vpls-openbsd.xml.
@@ -17,6 +19,5 @@ Preparation of the scenario:
 
 Starting the scenario:
 - Start the VNX scenario with the -t option: vnx -f vpls-openbsd.xml -t
-- After the vnx command has ended, run the change.mtu script. This script will change the default MTU in the Ethernet bridges and interfaces of the VNX scenario in the host, so that frames with additional Ethernet and MPLS headers can pass through them.
 - Logon to the consoles of the CE machines and verify connectivity with pings.
 

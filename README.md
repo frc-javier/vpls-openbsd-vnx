@@ -14,8 +14,7 @@ Preparation of the scenario:
 - Creation of the OpenBSD root filesystem. Follow the instructions provided in the VNX page: http://web.dit.upm.es/vnxwiki/index.php/Vnx-rootfsopenbsd
 - Download the VNX scenario definition file vpls-openbsd.xml.
 - Download the folder vpls-conf to the same directory as vpls-openbsd.xml.
-- Download the script change.mtu and give it execution permissions.
-- Rename the OpenBSD root filesystem file to the name expected in vpls-openbsd.xml: obsd.qcow2 (alternatively, you may edit vpls-openbsd.xml and change the name in filesystem tags to match the name of your root filesystem).
+- Edit vpls-openbsd.xml and change the name in filesystem tags to match the name of the root filesystem created before.
 
 Starting the scenario:
 - Start the VNX scenario with the -t option: vnx -f vpls-openbsd.xml -t

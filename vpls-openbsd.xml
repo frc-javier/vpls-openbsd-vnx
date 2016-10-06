@@ -61,8 +61,8 @@ SPAIN
         chmod +x /root/PE1/start.interfaces
         cp /root/PE1/ldpd.conf /etc
         cp /root/PE1/ospfd.conf /etc
-        chmod 0640 /etc/ldpd.conf /etc
-        chmod 0640 /etc/ospfd.conf /etc
+        chmod 0640 /etc/ldpd.conf 
+        chmod 0640 /etc/ospfd.conf 
         /root/PE1/start.interfaces
     </exec>
   </vm>
@@ -80,8 +80,8 @@ SPAIN
         chmod +x /root/PE2/start.interfaces
         cp /root/PE2/ldpd.conf /etc
         cp /root/PE2/ospfd.conf /etc
-        chmod 0640 /etc/ldpd.conf /etc
-        chmod 0640 /etc/ospfd.conf /etc
+        chmod 0640 /etc/ldpd.conf 
+        chmod 0640 /etc/ospfd.conf 
         /root/PE2/start.interfaces
     </exec>
   </vm>
@@ -97,8 +97,8 @@ SPAIN
         chmod +x /root/PE3/start.interfaces
         cp /root/PE3/ldpd.conf /etc
         cp /root/PE3/ospfd.conf /etc
-        chmod 0640 /etc/ldpd.conf /etc
-        chmod 0640 /etc/ospfd.conf /etc
+        chmod 0640 /etc/ldpd.conf 
+        chmod 0640 /etc/ospfd.conf 
         /root/PE3/start.interfaces
     </exec>
   </vm>
@@ -121,8 +121,8 @@ SPAIN
         chmod +x /root/P/start.interfaces
         cp /root/P/ldpd.conf /etc
         cp /root/P/ospfd.conf /etc
-        chmod 0640 /etc/ldpd.conf /etc
-        chmod 0640 /etc/ospfd.conf /etc
+        chmod 0640 /etc/ldpd.conf 
+        chmod 0640 /etc/ospfd.conf 
         /root/P/start.interfaces
     </exec>
   </vm>
